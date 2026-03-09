@@ -1,0 +1,15 @@
+[project]
+name = "athlete-context"
+version = "0.1.0"
+description = "Generates daily athlete context from Garmin data for AI-assisted workout planning"
+requires-python = ">=3.11"
+dependencies = [
+    "garminconnect>=0.2.38",
+    "python-dotenv>=1.2.2",
+]
+
+[project.optional-dependencies]
+dev = []
+
+[tool.pdm]
+distribution = false
